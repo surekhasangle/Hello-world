@@ -1,6 +1,10 @@
 #include <iostream>
 
-int main(){
- 
-     cout << "Machado 98" ;
+using namespace std;
+
+int main()
+{
+   cout << "Hello World" << endl; 
+   
+   return 0;
 }
