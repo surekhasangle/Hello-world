@@ -2,9 +2,10 @@
 void fact(int n);
 int main(){
 int n;
+printf("Enter number whose factorial you want to calculate:\t");
 scanf("%d",&n);
 fact(n);
-printf("%d",factorial);
+printf("Factorial of given number is : %d",factorial);
 return 0;
 }
 void fact(int n){
